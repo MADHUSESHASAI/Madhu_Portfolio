@@ -1,0 +1,29 @@
+/* Color variables */
+:root {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+  --imp-text-color: #c770f0;
+}
+
+/* Example overrides */
+.purple { color: var(--imp-text-color) !important; }
+.navbar-toggler span { background-color: #be50f4 !important; }
+.navbar-nav .nav-item a::after { background: #c95bf5; }
+.main-name { color: #cd5ff8; }
+.Typewriter__wrapper { color: #be6adf !important; }
+.Typewriter__cursor { color: #b562d6 !important; }
+.home-social-icons::before { background: #68187a; }
+.home-social-icons:hover::before { box-shadow: 0 0 15px #801f95; }
+.home-social-icons:hover { color: #87209e; box-shadow: 0 0 5px #87209e; text-shadow: 0 0 2px #87209e; }
+.icon-colour { color: #700c86 !important; }
+.footer { background-color: rgb(10, 4, 22); }
+.resume .resume-item::before { background: #fff; border: 2px solid #8a49a8; }
+/* Add any other colors you want to override */
