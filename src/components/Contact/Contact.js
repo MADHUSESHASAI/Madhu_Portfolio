@@ -53,7 +53,7 @@ function Contact() {
             <Card.Body>
               <h2 className="purple">Contact Info</h2>
               <p>
-                <strong>Mobile:</strong><br /> <span className="purple">+91 8919751029</span>
+                <strong>Mobile:</strong><br /> <span className="purple">+91 8008018162</span>
                 <br />
                 <strong>Email:</strong>{" "}<br />
                 <span className="purple">saimadhu57024@gmail.com or madhupapinani@gmail.com</span>
