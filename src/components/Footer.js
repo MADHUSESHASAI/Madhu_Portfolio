@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -17,7 +16,7 @@ function Footer() {
           <h3>Designed & Developed by Madhu Sesha Sai Papinani</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>© 2025 Madhu</h3>
+          <h3>© {year} Madhu</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
