@@ -2,13 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
+import visi from "../../Assets/project/2-removebg-preview.png";
+import code from "../../Assets/project/3-removebg-preview.png";
+import offer from "../../Assets/project/4-removebg-preview.png";
+import susoku from "../../Assets/project/5-removebg-preview.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -23,7 +21,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={visi}
               isBlog={false}
               title="VisiOCR"
               description="A smart Visitor Pass Management platform that uses OCR to read and authenticate visitor ID details automatically. The system delivers quick, reliable verification supported by efficient database design and smooth backend operations."
@@ -33,9 +31,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={code}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="CodeBot"
               description="An AI-driven source code summarizer leveraging Hugging Face Transformers with QLoRA/PEFT for efficient fine-tuning. Features advanced prompt engineering, robust preprocessing, and BLEU/ROUGE-based evaluation to deliver high-quality, context-aware code summaries."
               demoLink="https://huggingface.co/12madhu34/codet5-finetuned-summary_60k"
             />
@@ -43,7 +41,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={offer}
               isBlog={false}
               title="Proximity-Based Mall Offer Platform"
               description="A proximity-based mall offer platform that uses geolocation to detect malls within a 200-meter radius and deliver instant promotional offers. Built with a secure ASP.NET Core backend, React/React Native interfaces, and MySQL-driven automated offer management."
@@ -53,7 +51,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={susoku}
               isBlog={false}
               title="Sudoku-Solver"
               description="A web application that allows users to input incomplete Sudoku boards and generates instant solutions using algorithmic backtracking. Delivers a clean, responsive interface backed by Django and SQLite for seamless puzzle solving."

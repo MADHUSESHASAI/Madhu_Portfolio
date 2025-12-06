@@ -53,6 +53,15 @@ button:focus {
 }
 
 /* --------- */
+/*contact   */
+/* --------- */
+#tsparticles {
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+
+/* --------- */
 /*Scrollbar   */
 /* --------- */
 
@@ -282,6 +291,10 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
+  padding-left: 45px !important;
+}
+.heading-name-loc {
+  
   padding-left: 45px !important;
 }
 

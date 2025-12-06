@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/avatar.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
+import { IoLocationOutline } from "react-icons/io5";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -22,6 +20,9 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
+            <br/>
+            <br/>
+            <br/>
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -33,6 +34,14 @@ function Home() {
                 I'M
                 <strong className="main-name"> MADHU SESHA SAI PAPINANI</strong>
               </h1>
+              
+              <h5 className="heading-name-loc">
+                <IoLocationOutline />
+                
+                <strong > Vizianagaram, Andhra Pradesh, 534002</strong>
+              </h5>
+              <br/>
+              
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
@@ -44,7 +53,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ Height: "200px" }}
               />
             </Col>
           </Row>
