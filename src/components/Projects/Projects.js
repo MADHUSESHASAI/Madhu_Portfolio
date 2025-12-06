@@ -21,6 +21,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={code}
+              isBlog={false}
+              title="CodeBot"
+              description="An AI-driven source code summarizer leveraging Hugging Face Transformers with QLoRA/PEFT for efficient fine-tuning. Features advanced prompt engineering, robust preprocessing, and BLEU/ROUGE-based evaluation to deliver high-quality, context-aware code summaries."
+              demoLink=" https://youtu.be/Lv8vFCmtJS8?si=Ydo2yjO_mihTtGWV "
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={visi}
               isBlog={false}
               title="VisiOCR"
@@ -29,21 +38,13 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={code}
-              isBlog={false}
-              title="CodeBot"
-              description="An AI-driven source code summarizer leveraging Hugging Face Transformers with QLoRA/PEFT for efficient fine-tuning. Features advanced prompt engineering, robust preprocessing, and BLEU/ROUGE-based evaluation to deliver high-quality, context-aware code summaries."
-              demoLink="https://huggingface.co/12madhu34/codet5-finetuned-summary_60k"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={offer}
               isBlog={false}
-              title="Proximity-Based Mall Offer Platform"
+              title="Geofenced Offers Discovery Service"
               description="A proximity-based mall offer platform that uses geolocation to detect malls within a 200-meter radius and deliver instant promotional offers. Built with a secure ASP.NET Core backend, React/React Native interfaces, and MySQL-driven automated offer management."
               ghLink="https://github.com/soumyajit4419/Editor.io"             
             />

@@ -32,13 +32,13 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MADHU SESHA SAI PAPINANI</strong>
+                <strong className="main-name"> MADHU SESHA SAI </strong>
               </h1>
               
               <h5 className="heading-name-loc">
                 <IoLocationOutline />
                 
-                <strong > Vizianagaram, Andhra Pradesh, 534002</strong>
+                <strong > Hydrabad, Telangana, 500007</strong>
               </h5>
               <br/>
               
