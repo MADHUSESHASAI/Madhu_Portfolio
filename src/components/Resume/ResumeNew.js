@@ -29,7 +29,7 @@ function ResumeNew() {
         {/* PDF Preview */}
         <Row className="resume" style={{ justifyContent: "center", marginTop: "30px" }}>
           <iframe
-            src="https://drive.google.com/file/d/1iR19Q5BnhEw7Q8lxxr0QUz1IjIEEOsoP/preview"
+            src="https://drive.google.com/file/d/10jqgKpX4h9rivyNeTcljj8pzG3zDEAc3/preview"
             width="80%"
             height="900px"
             style={{ border: "none" ,overflow: "auto"}}
