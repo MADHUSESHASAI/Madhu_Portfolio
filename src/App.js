@@ -9,7 +9,7 @@ import './color-overrides.css';
 
 import Resume from "./components/Resume/ResumeNew";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
@@ -42,8 +42,8 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
