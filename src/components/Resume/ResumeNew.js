@@ -4,8 +4,12 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 
-// Updated Google Drive Download Link for "resumed"
-const resumeLink = "https://drive.google.com/uc?export=download&id=1iR19Q5BnhEw7Q8lxxr0QUz1IjIEEOsoP";
+// Updated Google Drive Download Link for "resume"
+const resumeLink =
+  "https://drive.google.com/uc?export=download&id=1CEhmURrO7sCbKWmbIJsdpHLo3TCVzTIa";
+
+const resumePreviewLink =
+  "https://drive.google.com/file/d/1CEhmURrO7sCbKWmbIJsdpHLo3TCVzTIa/preview";
 
 function ResumeNew() {
   return (
@@ -29,7 +33,7 @@ function ResumeNew() {
         {/* PDF Preview */}
         <Row className="resume" style={{ justifyContent: "center", marginTop: "30px" }}>
           <iframe
-            src="https://drive.google.com/file/d/10jqgKpX4h9rivyNeTcljj8pzG3zDEAc3/preview"
+            src={resumePreviewLink}
             width="80%"
             height="900px"
             style={{ border: "none" ,overflow: "auto"}}
