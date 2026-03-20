@@ -10,13 +10,13 @@ function Techstack() {
         <div className="tech-icons-text">C#</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">Java</div>
+        <div className="tech-icons-text">Go</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div className="tech-icons-text">Python</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">C</div>
+        <div className="tech-icons-text">SQL</div>
       </Col>
 
       {/* Web Technologies */}
@@ -24,29 +24,29 @@ function Techstack() {
         <div className="tech-icons-text">JavaScript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">HTML5</div>
+        <div className="tech-icons-text">DynamoDB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">CSS3</div>
+        <div className="tech-icons-text">AWS Lambda & S3</div>
       </Col>
 
       {/* Frameworks & Libraries */}
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">ASP.NET Core</div>
+        <div className="tech-icons-text">ASP.NET Core Web API</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">Spring Boot</div>
+        <div className="tech-icons-text">Serverless Framework</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div className="tech-icons-text">Django</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">ReactJS</div>
+        <div className="tech-icons-text">OpenAI & Claude APIs</div>
       </Col>
 
       {/* Databases */}
       <Col xs={4} md={2} className="tech-icons">
-        <div className="tech-icons-text">SQL Server</div>
+        <div className="tech-icons-text">SQL</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div className="tech-icons-text">MySQL</div>

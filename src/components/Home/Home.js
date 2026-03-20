@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/avatar.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import Experience from "./Experience";
 import Type from "./Type";
 import { IoLocationOutline } from "react-icons/io5";
 import {
@@ -24,21 +25,18 @@ function Home() {
             <br/>
             <br/>
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hi, I&apos;m <span className="purple">Madhu Sesha Sai</span>
               </h1>
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MADHU SESHA SAI </strong>
+                <strong className="main-name"> MADHU SESHA SAI PAPINANI </strong>
               </h1>
               
               <h5 className="heading-name-loc">
                 <IoLocationOutline />
                 
-                <strong > Hydrabad, Telangana, 500007</strong>
+                <strong> Hyderabad, Telangana, 500007</strong>
               </h5>
               <br/>
               
@@ -60,6 +58,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Experience />
 
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>

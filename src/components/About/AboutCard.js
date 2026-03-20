@@ -8,43 +8,45 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m{" "}
-            <span className="purple">Madhu Sesha Sai Papinani</span>.
-            <br />
-            I’m someone who enjoys understanding how systems work, solving
-            complex problems, and creating things that actually help people.
-            <br />
-            I’m passionate about improving logic, optimizing workflows, and 
-            building solutions that feel clean, structured, and reliable.
-            <br />
-            I constantly challenge myself through coding problems and have
-            completed over <span className="purple">400+</span> of them on
-            LeetCode, earning <span className="purple">6 badges</span> along the
-            way. Problem-solving has become a daily habit for me.
+            I&apos;m <span className="purple">Madhu Sesha Sai Papinani</span>, a
+            backend-focused software engineer who turns complex requirements into
+            dependable, scalable solutions.
             <br />
             <br />
-            I also had an opportunity to work as a{" "}
-            <span className="purple">Full-Stack Developer Intern</span>, where I
-            focused on improving processes, working with teams, and contributing
-            to projects that required patience, clarity, and disciplined effort.
+            In my current role, I&apos;ve designed and deployed serverless data
+            pipelines on <span className="purple">AWS</span> using <span className="purple">Lambda</span>,{" "}
+            <span className="purple">S3</span>, and <span className="purple">DynamoDB</span>, and built
+            Python-based Lambda functions to transform structured data from complex JSON inputs.
             <br />
             <br />
-            Outside of work and coding, I enjoy activities that help me grow and
-            stay motivated:
+            I&apos;ve also implemented AI-driven workflows by integrating{" "}
+            <span className="purple">OpenAI</span> and <span className="purple">Anthropic (Claude)</span> APIs,
+            including prompt-engineering improvements that enhance accuracy, consistency, and
+            reliability.
+            <br />
+            <br />
+            Earlier, I worked as a <span className="purple">Full-Stack Developer Intern</span>, building
+            an OCR-based extraction system with <span className="purple">PyTesseract</span> and a secure{" "}
+            <span className="purple">Python–Django</span> backend backed by <span className="purple">MySQL</span>.
+            <br />
+            <br />
+            Alongside engineering, I actively practice data structures and
+            algorithms, with <span className="purple">400+</span> LeetCode problems and{" "}
+            <span className="purple">6 badges</span>.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Solving DSA problems & participating in contests
+              <ImPointRight /> Building scalable backend systems and automation
             </li>
             <li className="about-activity">
-              <ImPointRight /> Collaborating on projects and exploring ideas
+              <ImPointRight /> Working on LLM workflows, integrations, and prompt engineering
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing games to relax and reset
+              <ImPointRight /> Practicing DSA to strengthen problem-solving foundations
             </li>
             <li className="about-activity">
-              <ImPointRight /> Taking up new challenges and learning through practice
+              <ImPointRight /> Learning continuously through real-world projects
             </li>
           </ul>
 

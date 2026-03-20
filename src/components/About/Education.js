@@ -22,11 +22,13 @@ function Education() {
           <blockquote className="blockquote mb-0">
             <h3 >Master of Computer Applications (MCA)</h3>
             <p>
-              <strong className="purple">Jawaharlal Nehru Technological University Gurajada Vizianagaram</strong>
+              <strong className="purple">
+                Jawaharlal Nehru Technological University, Gurajada, Vizianagaram
+              </strong>
               <br />
               2023 – 2025
               <br />
-              CGPA: 8.5
+              CGPA: 8.6
             </p>
           </blockquote>
         </Card.Body>
